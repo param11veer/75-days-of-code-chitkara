@@ -102,3 +102,16 @@ for i in range(M, N+1):
             print(b)
         if(count == 0):
             print("No Numbers found")
+            
+            
+            
+#given program find the sum of X to N with condition x**2+(-x**4)+x**6+(-x**8)..........     
+X = int(input())
+N = int(input())
+sum = 0
+power = 2
+for i in range(1, N+1):
+    term = X**power
+    power = power + 2
+    sum = sum + term
+print(sum)
