@@ -105,7 +105,7 @@ for i in range(M, N+1):
             
             
             
-#given program find the sum of X to N with condition x**2+(-x**4)+x**6+(-x**8)..........     
+#given program find the sum of X to N with condition x**2+x**4+x**6.....................     
 X = int(input())
 N = int(input())
 sum = 0
@@ -115,3 +115,42 @@ for i in range(1, N+1):
     power = power + 2
     sum = sum + term
 print(sum)
+
+
+
+
+#given program find the sum of X to N with condition x**2+(-x**4)+x**6+(-x**8)..........     
+
+X = int(input())
+N = int(input())
+sum = 0
+sum_1 = 0
+power = 2
+for i in range(1, N+1):
+    if(i%2!=0):
+        term = X**power
+        sum = sum + term
+    elif(i%2==0):
+        power = power + 2
+        term_1 = -(X**power)
+        sum_1 = term_1 + sum_1
+        power = power + 2
+print(sum+sum_1)
+
+
+
+# print an inverted right angle triangle
+
+N = int(input())
+for i in range(1, N+1):
+    print((" "*(N-i)) + ("*"*i))
+    
+    
+    
+# print an inverted right angle with last line as #
+N = int(input())
+for i in range(1, N+1):
+    if(i<=N-1):
+        print((" "*(N-i))+("*"*i))
+    if(i>=N):
+        print("#"*i)
