@@ -154,3 +154,15 @@ for i in range(1, N+1):
         print((" "*(N-i))+("*"*i))
     if(i>=N):
         print("#"*i)
+        
+        
+        
+#print a pyramid  for given n rows
+# note there is a space after every star and blank spaces consist of two spaces 
+        
+number_of_rows = int(input())
+for row in range(number_of_rows):
+    spaces = "  "* (number_of_rows - row - 1)
+    star = "* "*((2*row)+1)
+    each_row = spaces + star
+    print(each_row)
