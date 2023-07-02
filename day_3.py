@@ -27,3 +27,18 @@ for i in range(1, number+1):
     second_star = "* "*i
     pattern = first_spaces + first_star + second_spaces + second_star
     print(pattern)
+    
+    
+#WAP to print the count of digits for 1 to n
+number = int(input())
+sum = 0
+for digit in range(1, number+1):
+    lenght = len(str(digit))
+    if(lenght < 10):
+        sum = sum + lenght
+    elif(10 <= lenght < 100):
+        sum = sum + lenght
+    elif(100 <= lenght < 1000):
+        sum = sum + lenght
+    
+print(sum)
