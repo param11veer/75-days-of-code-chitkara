@@ -5,41 +5,46 @@
 }
 
 .background-container{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
     background-size: cover;
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    
+    /* text-align: center; */
 }
 
-.card-container{
-    background-color: #ffffff;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding: 35px;
-}
+.card{
+    background-color: #000000e6;
+    border-radius: 15px;
+    width: 80vw;
+    padding: 25px;
+    margin: 35px;
 
-.para-1{
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 14px;
 }
 
 .heading{
-    color: #323f4b;
-    font-family: "Roboto";
-    font-size: 23px;
+    color: #ffffff;
+    font-family: "Bree Serif";
 }
 
-.para-2{
-    color: #7b8794;
+.para{
+    color: #ffffff;
     font-family: "Roboto";
-    font-size: 14px;
+}
+
+.button-card{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px; */
+    text-align: center;
+    padding-bottom: 40px;
+    /* width: 450px */
 }
 
 .button{
-    background-color: #323f4b;
-    color: #ffffff;
     width: 150px;
+    /* margin: 20px; */
 }
