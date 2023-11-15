@@ -5,74 +5,112 @@
     font-family: "Roboto";
 }
 
-.background-container{
-    background-color: #fb4e71;
-    width: 100vw;
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-}
-
-.card-1{
-    font-family: "Roboto";
-    color: #ffffff;
-}
-
-.bg-container{
-    background-color: #e6f6ff;
+.background{
+    background-color: #ffffff;
     height: 100vh;
     background-size: cover;
 }
 
-.card-2{
-    padding: 20px;
-}
-
-.kl-rahul-card{
-    background-color: #ffffff;
-    width: 90vw;
-    border-radius: 10px;
+.card-1{
     display: flex;
     flex-direction: row;
-    margin-bottom: 15px;
-    margin-top: 25px;
-}
-
-.second-card{
-    padding: 12px;
-    
+    padding: 15px;
 }
 
 .heading{
-    font-size: 15px;
+    font-size: 20px;
+    color: #323f4b;
     font-weight: bold;
+}
+
+.button-1{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+
+.card-2{
+    background-color: #0967d219;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card-2-setup{
+    display: flex;
+    flex-direction: row;
+    margin: px;
+}
+
+.img{
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 .para{
     font-size: 15px;
+    color: #707070;
 }
 
-.heading-2{
-    font-size: 18px;
-    font-weight: bold;
+.card-3{
+    padding: 15px;
 }
 
-.last-card{
+.small-card-1{
+    background-color: #3ebd93;
+    border-radius: 8px;
+    padding: px;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+.para-1{
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 3px;
+}
+
+.img-1{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.card-3-setup{
     display: flex;
     flex-direction: row;
     margin-top: 25px;
 }
 
-.para-2{
-    font-size: 13px;
-    color: black;
+.small-card-2{
+    background-color: #e668a7;
+    border-radius: 8px;
+    padding: px;
+    width: fit-content;
+    margin-right: 30px;
 }
 
-.button{
-    text-align: center;
-    width: 150px;
+.small-card-3{
+    background-color: #a368fc;
+    border-radius: 8px;
+    padding: px;
+    width: fit-content;
+    margin-right: 30px;
 }
 
-.card-button{
-    text-align: center;
+.card-4{
+    padding: 15px;
+}
+
+.card-4-setup{
+    background-color: #e12d3919;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.img-last{
+    padding-right: 10px;
+    padding-top: 15px;
 }
