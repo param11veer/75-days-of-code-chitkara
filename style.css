@@ -5,112 +5,33 @@
     font-family: "Roboto";
 }
 
-.background{
-    background-color: #ffffff;
-    height: 100vh;
+.bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/iphoneX-bg.png");
+    width: 100vw;
+    height: 43vh;
     background-size: cover;
 }
 
-.card-1{
-    display: flex;
-    flex-direction: row;
-    padding: 15px;
-}
-
 .heading{
-    font-size: 20px;
-    color: #323f4b;
     font-weight: bold;
 }
 
-.button-1{
-    height: 40px;
-    width: 120px;
+.list{
+    font-weight: bold;
+    color: #0a1f44;
+}
+
+.space{
+    margin-bottom: 25px;
+    /* color: #707070; */
+}
+
+.last-container{
+    border-color: #707070;
+    padding: 35px;
+}
+
+.button{
     text-align: center;
-}
-
-.card-2{
-    background-color: #0967d219;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 15px;
-}
-
-.card-2-setup{
-    display: flex;
-    flex-direction: row;
-    margin: px;
-}
-
-.img{
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.para{
-    font-size: 15px;
-    color: #707070;
-}
-
-.card-3{
-    padding: 15px;
-}
-
-.small-card-1{
-    background-color: #3ebd93;
-    border-radius: 8px;
-    padding: px;
-    width: fit-content;
-    margin-right: 30px;
-}
-
-.para-1{
-    font-size: 15px;
-    color: #ffffff;
-    padding: 10px;
-    padding-top: 3px;
-}
-
-.img-1{
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
-.card-3-setup{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-}
-
-.small-card-2{
-    background-color: #e668a7;
-    border-radius: 8px;
-    padding: px;
-    width: fit-content;
-    margin-right: 30px;
-}
-
-.small-card-3{
-    background-color: #a368fc;
-    border-radius: 8px;
-    padding: px;
-    width: fit-content;
-    margin-right: 30px;
-}
-
-.card-4{
-    padding: 15px;
-}
-
-.card-4-setup{
-    background-color: #e12d3919;
-    border-radius: 10px;
-    display: flex;
-    padding: 15px;
-    margin-top: 25px;
-}
-
-.img-last{
-    padding-right: 10px;
-    padding-top: 15px;
+    margin-left: 50%;
 }
