@@ -1,80 +1,237 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-*{
-    margin: 0px;
-    font-family: "Roboto";
-}
-
-.bg-container{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png");
-    width: 100vw;
-    height: 40vh;
+.bg-container-1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 100vh;
     background-size: cover;
-}
-
-.card-container{
-    text-align: center;
-    /* margin-left: 100px; */
-    margin: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
 }
 
-.heading{
-    color: #183b56;
-    font-weight: bold;
-}
-
-.para{
-    color: #5a7184;
-    margin: 35px;
-}
-
-.heading-2{
-    color: #183b56;
-    font-weight: bold;
-    font-size: 32px;
-}
-.para-2{
-    color: #5a7184;
-    font-size: 20px;
-}
-
-.card-2{
+.new-card-1{
     text-align: center;
-    margin: 30px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
-.heading-3{
-    color: #183b56;
-    font-weight: bold;
-    font-size: 32px;
+.main-heading-1{
+    font-family: sans-serif;
+    font-size: 50px;
 }
 
-.para-3{
-    color: #5a7184;
+.paragraph-1{
+    font-family: sans-serif;
     font-size: 20px;
 }
 
-.card-setup{
+.button-1{
+    height: 46px;
+    width: 138px;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.button-green-1{
+    background-color: #8cc63f;
+}
+.button-orange-1{
+    background-color: #f7931e;
+}
+
+/**********************************************************************************/
+
+*{
+    margin: 0px;
+}
+.favourite-places-bg-container-2{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+.fav-places-heading-2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 24px;
+}
+.fav-place-card-2{
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: 45px;
 }
 
-.card-setup-1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 70px;
+.fav-place-card-heading-2{
+    color: #0f0e46;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 23px;
+}
+.fav-place-card-para-2{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #6c6b70;
 }
 
-.card-setup-2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.fav-place-card-image-2{
+    width: 80px;
+    height: 100px;
 }
 
 .button-2{
-    text-align: center;
-    margin-top: 20px;
+    margin-left: 48px;
 }
+
+/* ********************************************************************************** */
+
+.detailed-view-bg-container-3{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.detailed-view-heading-3{
+    color: white;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container-3{
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading-3{
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.detailed-view-card-description-3{
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #6c6b70;
+}
+
+.detailed-view-card-text-container-3{
+    padding: 16px;
+}
+
+/*****************************************************************************************************************/
+
+.detailed-view-bg-container-4 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+  }
+  .detailed-view-heading-4 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+  }
+  .detailed-view-card-container-4 {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .detailed-view-card-heading-4 {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .detailed-view-card-description-4 {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+  }
+  .detailed-view-card-text-container-4 {
+    padding: 16px;
+  }
+
+/* ***********************************************************************************************************************/
+
+
+.detailed-view-bg-container-5 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+  }
+  .detailed-view-heading-5 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+  }
+  .detailed-view-card-container-5 {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .detailed-view-card-heading-5 {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .detailed-view-card-description-5 {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+  }
+  .detailed-view-card-text-container-5 {
+    padding: 16px;
+  }
+
+/* *********************************************************************************************************************** */
+
+.detailed-view-bg-container-6 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+  }
+  .detailed-view-heading-6 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+  }
+  .detailed-view-card-container-6 {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .detailed-view-card-heading-6 {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .detailed-view-card-description-6 {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+  }
+  .detailed-view-card-text-container-6 {
+    padding: 16px;
+  }
