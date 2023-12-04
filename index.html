@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -20,291 +20,314 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Website Integration</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Podcast-Page</title>
 </head>
 
 <body>
     <div id="sectionHome">
-        <div class="bg-container-1">
-            <div class="new-card-1">
-                <h1 class="main-heading-1">Tourism</h1>
-                <p class="paragraph-1">Plan your trip</p>
-                <button class="button-1" onclick="display('sectionfavplaces')">
-                    Get Started
-                </button>
-                <!-- <button class="btn btn-secondary">Visit Now</button> -->
+        <div class="first-bg-container">
+            <h1 class="heading-1">Podcasts</h1>
+        </div>
+        <div class="card-setup-home">
+            <div onclick="display('sectionpage1')">
+                <div class="spacing">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image" />
+                    <h2 class="heading-2">Puri Jagannadha</h2>
+                    <p class="para">24 Episodes</p>
+                </div>
+            </div>
+            <div onclick="display('sectionpage2')">
+                <div class="spacing">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
+                    <h2 class="heading-2">Tedx talks</h2>
+                    <p class="para">12 Episodes</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-setup-home">
+            <div onclick="display('sectionpage3')">
+                <div class="spacing">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image" />
+                    <h2 class="heading-2">Sadhguru</h2>
+                    <p class="para">49 Episodes</p>
+                </div>
+            </div>
+            <div onclick="display('sectionpage4')">
+                <div class="spacing">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image" />
+                    <h2 class="heading-2">On purpose</h2>
+                    <p class="para">49 Episodes</p>
+                </div>
             </div>
         </div>
     </div>
-    <!-- **************************************************************************************************************** -->
-    <div id="sectionfavplaces">
-        <div class="favourite-places-bg-container-2">
-            <h1 class="fav-places-heading-2">Favourite Places</h1>
-            <div class="fav-place-card-2" onclick="display('sectiondetailedview1')">
+
+    <!-- ********************************************************************************************************************************* -->
+    <div id="sectionpage1">
+        <div class="second-bg-container">
+            <div class="second-page-card-setup-1">
                 <div>
-                    <h1 class="fav-place-card-heading-2">Taj Mahal</h1>
-                    <p class="fav-place-card-para-2">
-                        If there was a just one symbol to represent all of India, It would
-                        be the Taj Mahal
-                    </p>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image-1" />
                 </div>
-                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png"
-                    class="fav-place-card-image-2" />
-            </div>
-            <div class="fav-place-card-2" onclick="display('sectiongoldentemple')">
                 <div>
-                    <h1 class="fav-place-card-heading-2">Golden Temple</h1>
-                    <p class="fav-place-card-para-2">
-                        Amritsar is world-famous for the beautiful and highly revered
-                        Golden Temple.
-                    </p>
+                    <p class="para-3">Podcast</p>
+                    <h1 class="heading-3">Puri Jagannadh Podcast</h1>
+                    <p class="para-3">The Puri Jagannad Podcast</p>
                 </div>
-                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png"
-                    class="fav-place-card-image-2" />
             </div>
-            <div class="fav-place-card-2" onclick="display('sectionmysorepalace')">
+        </div>
+        <div class="card-2">
+            <div class="second-page-card-setup-1">
                 <div>
-                    <h1 class="fav-place-card-heading-2">Mysore Palace</h1>
-                    <p class="fav-place-card-para-2">
-                        The Mysore Palace is a historical palace and the royal residence
-                        at Mysore.
-                    </p>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image-1" />
                 </div>
-                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png"
-                    class="fav-place-card-image-2" />
-            </div>
-            <div class="fav-place-card-2" onclick="display('sectionvaranasitemple')">
                 <div>
-                    <h1 class="fav-place-card-heading-2">Varanasi Temple</h1>
-                    <p class="fav-place-card-para-2">
-                        Varanasi Temple is the most famous Hindu temple dedicated to lord
-                        Shiva.
-                    </p>
+                    <h1 class="heading-4">Molecular Gastronomy</h1>
+                    <p class="para-4">Anything happens there it will not cook,...</p>
+                    <h6 class="heading-4 heading-4-1">15 min</h6>
                 </div>
-                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png"
-                    class="fav-place-card-image-2" />
             </div>
-            <button class="btn btn-dark button-2" onclick="display('sectionHome')">
-                Back
-            </button>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Mysterious Book</h1>
+                    <p class="para-4">The Voynich manuscript is the 15th century book,...</p>
+                    <h6 class="heading-4 heading-4-1">12 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Predator Drone</h1>
+                    <p class="para-4">The most power full drone. It is 10 feet height,...</p>
+                    <h6 class="heading-4 heading-4-1">10 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Paella</h1>
+                    <p class="para-4">The national dish of spain. It was first star,...</p>
+                    <h6 class="heading-4 heading-4-1">6 min</h6>
+                </div>
+            </div>
+            <div class="button-1">
+                <button class="btn button" onclick="display('sectionHome')">Back</button>
+            </div>
         </div>
     </div>
-    <!-- ************************************************************************************************************************ -->
-    <div id="sectiondetailedview1">
-        <div class="detailed-view-bg-container-3">
-            <h1 class="detailed-view-heading-3">Detailed View</h1>
-            <div class="detailed-view-card-container-3">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c2-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c3-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    <!-- ********************************************************************************************************************************* -->
+
+    <div id="sectionpage2">
+        <div class="second-bg-container">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
                 </div>
-                <div class="detailed-view-card-text-container-3">
-                    <h1 class="detailed-view-card-heading-3">Taj Mahal</h1>
-                    <p class="detailed-view-card-description-3">
-                        The Taj Mahal is a mausoleum located in Agra, India. It is
-                        considered to be the greatest architectural achievement in the
-                        whole indo-islamic architecture. It's recognised architectonic
-                        beauty has a rhytmic combinationof solid and voids, concave and
-                        convex and light shadows, such as arches and domes further
-                        increases the aesthetic aspect. Not a piece of architecture, as
-                        other buildings are the proud passions of an emperor's love
-                        wrought in living stones.
-                    </p>
+                <div>
+                    <p class="para-3">Podcast</p>
+                    <h1 class="heading-3">The Tedx podcast</h1>
+                    <p class="para-3">The Tedx podcast</p>
                 </div>
             </div>
-            <button class="btn btn-dark button-2" onclick="display('sectionfavplaces')">
-                Back
-            </button>
+        </div>
+        <div class="card-2">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">the Science of friction</h1>
+                    <p class="para-4">Tribology: It's a funny sounding word you might,...</p>
+                    <h6 class="heading-4 heading-4-1">12 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Unleash You</h1>
+                    <p class="para-4">What can we learn from the world's most enduringly,...</p>
+                    <h6 class="heading-4 heading-4-1">8 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4"># Psychological tricks</h1>
+                    <p class="para-4">We all want to save more money-but overall,...</p>
+                    <h6 class="heading-4 heading-4-1">10 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">The case for stubborn</h1>
+                    <p class="para-4">This decade is a moment of choice unlike any we,...</p>
+                    <h6 class="heading-4 heading-4-1">12 min</h6>
+                </div>
+            </div>
+            <div class="button-1">
+                <button class="btn button" onclick="display('sectionHome')">Back</button>
+            </div>
         </div>
     </div>
-    <!-- *********************************************************************************************************************************** -->
-    <div id="sectiongoldentemple">
-        <div class="detailed-view-bg-container-4">
-            <h1 class="detailed-view-heading-4">Detailed View</h1>
-            <div class="detailed-view-card-container-4">
-                <div id="goldenTempleCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#goldenTempleCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#goldenTempleCarousel" data-slide-to="1"></li>
-                        <li data-target="#goldenTempleCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple1-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple2-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goldentemple3-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#goldenTempleCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#goldenTempleCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+
+    <!-- ********************************************************************************************************************************* -->
+
+    <div id="sectionpage3">
+        <div class="second-bg-container">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image-1" />
                 </div>
-                <div class="detailed-view-card-text-container-4">
-                    <h1 class="detailed-view-card-heading-4">Golden Temple</h1>
-                    <p class="detailed-view-card-description-4">
-                        The Golden Temple, also known as Harmandir Sahib is a gurdwara
-                        located in the city of Amritsar, Punjab, India. There are many
-                        places to visit Near Golden Temple like Jallianwala Bagh, Wagah Border, Harike Wetland, Bathinda
-                        Fort.
-                    </p>
+                <div>
+                    <p class="para-3">Podcast</p>
+                    <h1 class="heading-3">The Sadhguru podcast</h1>
+                    <p class="para-3">The Sadhguru podcast</p>
                 </div>
             </div>
-            <button class="btn btn-dark button-2" onclick="display('sectionfavplaces')">
-                Back
-            </button>
+        </div>
+        <div class="card-2">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Head or heart</h1>
+                    <p class="para-4">Sadhguru shares his wisdom on how to make,...</p>
+                    <h6 class="heading-4 heading-4-1">16 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">How to equip yourself</h1>
+                    <p class="para-4">Society and human interactions are going,...</p>
+                    <h6 class="heading-4 heading-4-1">13 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">How not to equip yourself</h1>
+                    <p class="para-4">How do you see an unpleasant spouse the,...</p>
+                    <h6 class="heading-4 heading-4-1">15 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Isha Kriya</h1>
+                    <p class="para-4">Rooted in the timeless wisdom if the yogic,...</p>
+                    <h6 class="heading-4 heading-4-1">16 min</h6>
+                </div>
+            </div>
+            <div class="button-1">
+                <button class="btn button" onclick="display('sectionHome')">Back</button>
+            </div>
         </div>
     </div>
-    <!-- ************************************************************************************************************************************************* -->
-    <div id="sectionmysorepalace">
-        <div class="detailed-view-bg-container-5">
-            <h1 class="detailed-view-heading-5">Detailed View</h1>
-            <div class="detailed-view-card-container-5">
-                <div id="mysorePalaceCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#mysorePalaceCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mysorePalaceCarousel" data-slide-to="1"></li>
-                        <li data-target="#mysorePalaceCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace1-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace2-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace3-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#mysorePalaceCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#mysorePalaceCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+
+    <!-- ********************************************************************************************************************************* -->
+
+    <div id="sectionpage4">
+        <div class="second-bg-container">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image-1" />
                 </div>
-                <div class="detailed-view-card-text-container-5">
-                    <h1 class="detailed-view-card-heading-5">Mysore Palace</h1>
-                    <p class="detailed-view-card-description-5">
-                        Mysore Palace, also called Amba Vilas Palace, is one of the most magnificent and largest palaces
-                        in
-                        India. Situated in the southern state of Karnataka, it used to be the official residence of the
-                        Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the
-                        heart
-                        of Mysore city and attracts visitors from across the world. Being one of the prime attractions
-                        in
-                        India after the Taj Mahal, it certainly deserves a place in every traveler’s bucket list.
-                    </p>
+                <div>
+                    <p class="para-3">Podcast</p>
+                    <h1 class="heading-3">On Purpose with Jay</h1>
+                    <p class="para-3">The Jay Shetty podcast</p>
                 </div>
             </div>
-            <button class="btn btn-dark button-2" onclick="display('sectionfavplaces')">
-                Back
-            </button>
         </div>
-    </div>
-    <!-- ***************************************************************************************************************************************** -->
-    <div id="sectionvaranasitemple">
-        <div class="detailed-view-bg-container-6">
-            <h1 class="detailed-view-heading-6">Detailed View</h1>
-            <div class="detailed-view-card-container-6">
-                <div id="varanasiTempleCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#varanasiTempleCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#varanasiTempleCarousel" data-slide-to="1"></li>
-                        <li data-target="#varanasiTempleCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi2-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi3-img.png"
-                                class="d-block w-100" alt="..." />
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#varanasiTempleCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#varanasiTempleCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+        <div class="card-2">
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image-1" />
                 </div>
-                <div class="detailed-view-card-text-container-6">
-                    <h1 class="detailed-view-card-heading-6">Varanasi Temple</h1>
-                    <p class="detailed-view-card-description-6">
-                        Sri Kashi Vishwanath Temple also known as the Golden Temple, it is dedicated to Lord Shiva, the
-                        presiding deity of the city. Varanasi is Said to be the point at which the first jyotirlinga,
-                        the
-                        fiery pillar of light by which shiva manifested has supremacy over others gods, broke through
-                        the
-                        Earth’s crust and flared towards the heavens. More than the Gaths and even the Ganga, the
-                        Shivalinga
-                        installed in the temple remains the devotional focus of Varanasi.
-                    </p>
+                <div>
+                    <h1 class="heading-4">Patrick Bet David</h1>
+                    <p class="para-4">Are you an entrepreneur or have dreams of mental,...</p>
+                    <h6 class="heading-4 heading-4-1">10 min</h6>
                 </div>
             </div>
-            <button class="btn btn-dark button-2" onclick="display('sectionfavplaces')">
-                Back
-            </button>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">5 Techniques to cope</h1>
+                    <p class="para-4">Does anxiety looms around every corner of your,...</p>
+                    <h6 class="heading-4 heading-4-1">4 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">Radhanath Swami ON</h1>
+                    <p class="para-4">World-renowned spritual leader and philanthropist,...</p>
+                    <h6 class="heading-4 heading-4-1">15 min</h6>
+                </div>
+            </div>
+            <div class="second-page-card-setup-1">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
+                        class="image-1" />
+                </div>
+                <div>
+                    <h1 class="heading-4">3 Ways to let go</h1>
+                    <p class="para-4">Do the opinions of others veer you from the core,...</p>
+                    <h6 class="heading-4 heading-4-1">13 min</h6>
+                </div>
+            </div>
+            <div class="button-1">
+                <button class="btn button" onclick="display('sectionHome')">Back</button>
+            </div>
         </div>
     </div>
     <script type="text/javascript"
         src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
 
-</html>
+</html> 
