@@ -1,110 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-*{
-    margin: 0px;
-    font-family: "Roboto";
-}
-.first-bg-container{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
-    width: 100vw;
+.main-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #03174c;
+}
+
+.first-heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.first-para {
+    color: #ffffff;
+    font-family: Bree Serif;
+    text-align: center;
+
+}
+
+.bg-second {
+    padding: 70px;
+}
+
+.first-image {
+    width: 75vw;
     height: 30vh;
+}
+
+.night-island-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    height: 23vh;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #8e97fd;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.night-island-card {
+    margin: 5px;
     padding: 25px;
 }
 
-.heading-1{
-    color: #ffffff;
+
+.bg-second-pg {
+    background-color: #03174c;
+    background-size: cover;
 }
 
-.heading-2{
-    color: #151765;
-    font-weight: bold;
+.img-second-pg {
+    height: 30vh;
+    width: 100vw;
+}
+
+.second-heading {
+    color: #ffffff;
+    font-family: Bree Serif;
+}
+
+.second-para {
+    color: #98a1bd;
+    font-family: Bree Serif;
+}
+
+.second-pg-bg-container {
+    padding: 15px;
+}
+
+.second-heading-second {
+    color: #ffffff;
+    font-family: Bree Serif;
     font-size: 20px;
 }
 
-.para{
-    color: #5a7184;
+.img-third-pg {
+    height: 100px;
+    width: 150px;
 }
 
-.image{
-    width: 200px;
-    height: 140px;
-    margin-right: 25px;
+.margin {
+    margin-right: 10px;
 }
 
-.spacing{
-    text-align: center;
-}
-
-.card-setup-home{
-    margin: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-/* ******************************************************************************* */
-
-.second-bg-container{
-    background-color: #151765;
-    width: 100vw;
-    padding: 20px;
-}
-
-.heading-3{
+.button-second {
+    background-color: #8e97fd;
     color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.para-3{
-    color: #ffffff;
-}
-
-.second-page-card-setup-1{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 28px;
-}
-
-.image-1{
-    width: 200px;
-    height: 140px;
-    margin-right: 15px;
-}
-
-.heading-4{
-    color: #151765;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.para-4{
-    color: #9b9daf;
-    margin-bottom: 35px;
-}
-
-.card-2{
-    padding: 20px;
-}
-
-.heading-4-1{
-    font-size: 13px;
-}
-
-.button{
-    width: 100px;
-    height: 25px;
-    padding: 1px;
-    color: #ffffff;
-    text-align: center;
     border-radius: 20px;
-    background-color: #151765;
-
-}
-
-.button-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+    width: 150px;
 }

@@ -21,313 +21,60 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Podcast-Page</title>
+    <title>Music Page</title>
 </head>
 
 <body>
-    <div id="sectionHome">
-        <div class="first-bg-container">
-            <h1 class="heading-1">Podcasts</h1>
-        </div>
-        <div class="card-setup-home">
-            <div onclick="display('sectionpage1')">
-                <div class="spacing">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image" />
-                    <h2 class="heading-2">Puri Jagannadha</h2>
-                    <p class="para">24 Episodes</p>
-                </div>
+    <div id="sectionhome">
+        <div class="main-bg-container">
+            <div class="bg-second">
+                <h1 class="first-heading">Sleep Music</h1>
+                <p class="first-para">soothing bedtime music to help you fall into a deep and natural sleep</p>
             </div>
-            <div onclick="display('sectionpage2')">
-                <div class="spacing">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image" />
-                    <h2 class="heading-2">Tedx talks</h2>
-                    <p class="para">12 Episodes</p>
+            <div class="night-island-card text-center">
+                <div class="night-island-bg-container d-flex flex-column justify-content-center text-center">
+                    <h1 class="first-heading">Night Island</h1>
                 </div>
-            </div>
-        </div>
-        <div class="card-setup-home">
-            <div onclick="display('sectionpage3')">
-                <div class="spacing">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image" />
-                    <h2 class="heading-2">Sadhguru</h2>
-                    <p class="para">49 Episodes</p>
-                </div>
-            </div>
-            <div onclick="display('sectionpage4')">
-                <div class="spacing">
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image" />
-                    <h2 class="heading-2">On purpose</h2>
-                    <p class="para">49 Episodes</p>
-                </div>
+                <p class="first-para">Non-stop 8-hour mixes of our most popular sleep audio</p>
+                <button class="button  " onclick="display('sectionMusicDetails')">Get Started</button>
             </div>
         </div>
     </div>
+    <div id="sectionMusicDetails">
+        <div class="bg-second-pg">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="img-second-pg" />
+            <div class="second-pg-bg-container">
+                <h1 class="second-heading">Night Island</h1>
+                <p class="second-para">Easw the mind into a restful night's sleep with these deep, amblent tones.</p>
+            </div>
+            <div class="second-pg-bg-container">
+                <p class="second-para">45 MIN SLEEP MUSIC</p>
+                <h1 class="second-heading-second">Related</h1>
+                <div class="d-flex flex-row ">
+                    <div class="margin">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png"
+                            class="img-third-pg" />
+                        <div>
+                            <h1 class="second-heading-second">Moon clouds</h1>
+                            <p class="second-para">55 MIN SLEEP MUSIC</p>
+                        </div>
+                    </div>
+                    <div class="margin">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png"
+                            class="img-third-pg" />
+                        <div>
+                            <h1 class="second-heading-second">Sweet Sleep</h1>
+                            <p class="second-para">60 MIN SLEEP MUSIC</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="button-second btn" onclick="display('sectionhome')">Back</button>
+            </div>
 
-    <!-- ********************************************************************************************************************************* -->
-    <div id="sectionpage1">
-        <div class="second-bg-container">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <p class="para-3">Podcast</p>
-                    <h1 class="heading-3">Puri Jagannadh Podcast</h1>
-                    <p class="para-3">The Puri Jagannad Podcast</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-2">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Molecular Gastronomy</h1>
-                    <p class="para-4">Anything happens there it will not cook,...</p>
-                    <h6 class="heading-4 heading-4-1">15 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Mysterious Book</h1>
-                    <p class="para-4">The Voynich manuscript is the 15th century book,...</p>
-                    <h6 class="heading-4 heading-4-1">12 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Predator Drone</h1>
-                    <p class="para-4">The most power full drone. It is 10 feet height,...</p>
-                    <h6 class="heading-4 heading-4-1">10 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Paella</h1>
-                    <p class="para-4">The national dish of spain. It was first star,...</p>
-                    <h6 class="heading-4 heading-4-1">6 min</h6>
-                </div>
-            </div>
-            <div class="button-1">
-                <button class="btn button" onclick="display('sectionHome')">Back</button>
-            </div>
-        </div>
-    </div>
-    <!-- ********************************************************************************************************************************* -->
-
-    <div id="sectionpage2">
-        <div class="second-bg-container">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
-                </div>
-                <div>
-                    <p class="para-3">Podcast</p>
-                    <h1 class="heading-3">The Tedx podcast</h1>
-                    <p class="para-3">The Tedx podcast</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-2">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">the Science of friction</h1>
-                    <p class="para-4">Tribology: It's a funny sounding word you might,...</p>
-                    <h6 class="heading-4 heading-4-1">12 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Unleash You</h1>
-                    <p class="para-4">What can we learn from the world's most enduringly,...</p>
-                    <h6 class="heading-4 heading-4-1">8 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4"># Psychological tricks</h1>
-                    <p class="para-4">We all want to save more money-but overall,...</p>
-                    <h6 class="heading-4 heading-4-1">10 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">The case for stubborn</h1>
-                    <p class="para-4">This decade is a moment of choice unlike any we,...</p>
-                    <h6 class="heading-4 heading-4-1">12 min</h6>
-                </div>
-            </div>
-            <div class="button-1">
-                <button class="btn button" onclick="display('sectionHome')">Back</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ********************************************************************************************************************************* -->
-
-    <div id="sectionpage3">
-        <div class="second-bg-container">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <p class="para-3">Podcast</p>
-                    <h1 class="heading-3">The Sadhguru podcast</h1>
-                    <p class="para-3">The Sadhguru podcast</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-2">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Head or heart</h1>
-                    <p class="para-4">Sadhguru shares his wisdom on how to make,...</p>
-                    <h6 class="heading-4 heading-4-1">16 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">How to equip yourself</h1>
-                    <p class="para-4">Society and human interactions are going,...</p>
-                    <h6 class="heading-4 heading-4-1">13 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">How not to equip yourself</h1>
-                    <p class="para-4">How do you see an unpleasant spouse the,...</p>
-                    <h6 class="heading-4 heading-4-1">15 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Isha Kriya</h1>
-                    <p class="para-4">Rooted in the timeless wisdom if the yogic,...</p>
-                    <h6 class="heading-4 heading-4-1">16 min</h6>
-                </div>
-            </div>
-            <div class="button-1">
-                <button class="btn button" onclick="display('sectionHome')">Back</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ********************************************************************************************************************************* -->
-
-    <div id="sectionpage4">
-        <div class="second-bg-container">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <p class="para-3">Podcast</p>
-                    <h1 class="heading-3">On Purpose with Jay</h1>
-                    <p class="para-3">The Jay Shetty podcast</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-2">
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Patrick Bet David</h1>
-                    <p class="para-4">Are you an entrepreneur or have dreams of mental,...</p>
-                    <h6 class="heading-4 heading-4-1">10 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">5 Techniques to cope</h1>
-                    <p class="para-4">Does anxiety looms around every corner of your,...</p>
-                    <h6 class="heading-4 heading-4-1">4 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">Radhanath Swami ON</h1>
-                    <p class="para-4">World-renowned spritual leader and philanthropist,...</p>
-                    <h6 class="heading-4 heading-4-1">15 min</h6>
-                </div>
-            </div>
-            <div class="second-page-card-setup-1">
-                <div>
-                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png"
-                        class="image-1" />
-                </div>
-                <div>
-                    <h1 class="heading-4">3 Ways to let go</h1>
-                    <p class="para-4">Do the opinions of others veer you from the core,...</p>
-                    <h6 class="heading-4 heading-4-1">13 min</h6>
-                </div>
-            </div>
-            <div class="button-1">
-                <button class="btn button" onclick="display('sectionHome')">Back</button>
-            </div>
         </div>
     </div>
     <script type="text/javascript"
         src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
 
-</html> 
+</html>
