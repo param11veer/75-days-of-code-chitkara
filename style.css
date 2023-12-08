@@ -1,98 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.main-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+*{
+    margin: 0px;
+}
+
+.firs-bg-container{
+    background-color: #1b1b1b;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
-    background-color: #03174c;
-}
-
-.first-heading {
-    color: #ffffff;
-    font-family: Bree Serif;
-    text-align: center;
-    padding: 10px;
-
-}
-
-.first-para {
-    color: #ffffff;
-    font-family: Bree Serif;
-    text-align: center;
-
-}
-
-.bg-second {
-    padding: 70px;
-}
-
-.first-image {
-    width: 75vw;
-    height: 30vh;
-}
-
-.night-island-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
-    height: 23vh;
-    background-size: cover;
-    margin-bottom: 5px;
-}
-
-.button {
-    background-color: #8e97fd;
-    color: #ffffff;
-    border-radius: 20px;
-}
-
-.night-island-card {
-    margin: 5px;
     padding: 25px;
 }
 
-
-.bg-second-pg {
-    background-color: #03174c;
-    background-size: cover;
-}
-
-.img-second-pg {
-    height: 30vh;
-    width: 100vw;
-}
-
-.second-heading {
+.heading{
+    font-family: "Bree Serif";
     color: #ffffff;
-    font-family: Bree Serif;
+    /* font-weight: bold; */
+    font-size: 35px;
 }
 
-.second-para {
-    color: #98a1bd;
-    font-family: Bree Serif;
-}
-
-.second-pg-bg-container {
-    padding: 15px;
-}
-
-.second-heading-second {
-    color: #ffffff;
-    font-family: Bree Serif;
+.home-page-first-card-heading{
+    color: #183b56;
     font-size: 20px;
+    font-family: "Bree Serif";
+    /* font-weight: bold; */
 }
 
-.img-third-pg {
-    height: 100px;
-    width: 150px;
+.home-page-first-card-para{
+    color: #06070d;
+    font-size: 14px;
+    font-family: "Bree Serif";
 }
 
-.margin {
+.home-page-first-card{
+    background-color: #e6f6ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
     margin-right: 10px;
 }
 
-.button-second {
-    background-color: #8e97fd;
-    color: #ffffff;
-    border-radius: 20px;
+.img-1{
     width: 150px;
+    height: 200px;
+}
+
+.card-setup-1{
+    padding: 15px;
+}
+
+.button{
+    margin-top: 10px ;
+}
+
+.home-page-first-card-heading-1{
+    font-size: 12px;
+    color: #183b56;
+}
+
+.first-page-second-container-heading{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+.first-page-second-container-heading-spacing{
+    margin-top: 25px;
+}
+
+.img-2{
+    width: 90px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.first-page-second-card-heading{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+
+.first-page-second-card-para{
+    font-family: "Bree Serif";
+    color: #e4e7eb;
+    font-size: 15px;
+}
+
+.home-page-second-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+/* ****************************************************************************************************************** */
+
+.detailed-page-bg-container{
+    background-color: #1b1b1b;
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+.img-detailed-page{
+    width: 220px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.detailed-page-heading{
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 35px;
+}
+
+.detailed-page-para{
+    color: #9aa5b1;
+    font-family: "bree Serif";
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.detailed-page-card-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detailed-page-para-1{
+    color: #e4e7eb;
+    font-family: "Bree Serif";
+    text-align: left;
+    margin-bottom: 55px;
+
+}
+
+.button-2{
+    font-family: "Roboto";
+    color: #1b1b1b;
+    font-size: 15px;
+}
+
+.button-3{
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.detailed-page-button-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

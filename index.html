@@ -20,61 +20,192 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
-    <title>Music Page</title>
+    <title>Book Store Page</title>
 </head>
 
 <body>
-    <div id="sectionhome">
-        <div class="main-bg-container">
-            <div class="bg-second">
-                <h1 class="first-heading">Sleep Music</h1>
-                <p class="first-para">soothing bedtime music to help you fall into a deep and natural sleep</p>
-            </div>
-            <div class="night-island-card text-center">
-                <div class="night-island-bg-container d-flex flex-column justify-content-center text-center">
-                    <h1 class="first-heading">Night Island</h1>
+    <div id="sectionHome">
+        <div class="firs-bg-container">
+            <h1 class="heading">Popular Book</h1>
+            <div class="home-page-first-card">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+                        class="img-1" />
                 </div>
-                <p class="first-para">Non-stop 8-hour mixes of our most popular sleep audio</p>
-                <button class="button  " onclick="display('sectionMusicDetails')">Get Started</button>
+                <div class="card-setup-1">
+                    <h1 class="home-page-first-card-heading">Wings of Fire</h1>
+                    <p class="home-page-first-card-para">An Autobiography of Abdul Kalam</p>
+                    <h6 class="home-page-first-card-heading-1">by Arun Tiwari</h6>
+                    <button class="btn btn-primary button" onclick="display('sectionapj')">Read Now</button>
+                </div>
+            </div>
+            <div>
+                <div class="first-page-second-container-heading-spacing">
+                    <h1 class="first-page-second-container-heading">Recommended Books</h1>
+                </div>
+                <div class="home-page-second-card">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+                            class="img-2" />
+                    </div>
+                    <div>
+                        <h1 class="first-page-second-card-heading">The 3 mistakes of my life</h1>
+                        <p class="first-page-second-card-para">
+                            Indian author <br />
+                            by Chetan Bhagat
+                        </p>
+                        <button class="btn btn-primary" onclick="display('sectionchetan')">Read More</button>
+                    </div>
+                </div>
+                <div class="home-page-second-card">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+                            class="img-2" />
+                    </div>
+                    <div>
+                        <h1 class="first-page-second-card-heading">Harry Potter</h1>
+                        <p class="first-page-second-card-para">
+                            and the Sorcerer's Stone <br />
+                            by J.K.Rowling
+                        </p>
+                        <button class="btn btn-primary" onclick="display('sectionharry')">Read More</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="sectionMusicDetails">
-        <div class="bg-second-pg">
-            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="img-second-pg" />
-            <div class="second-pg-bg-container">
-                <h1 class="second-heading">Night Island</h1>
-                <p class="second-para">Easw the mind into a restful night's sleep with these deep, amblent tones.</p>
-            </div>
-            <div class="second-pg-bg-container">
-                <p class="second-para">45 MIN SLEEP MUSIC</p>
-                <h1 class="second-heading-second">Related</h1>
-                <div class="d-flex flex-row ">
-                    <div class="margin">
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png"
-                            class="img-third-pg" />
-                        <div>
-                            <h1 class="second-heading-second">Moon clouds</h1>
-                            <p class="second-para">55 MIN SLEEP MUSIC</p>
-                        </div>
-                    </div>
-                    <div class="margin">
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png"
-                            class="img-third-pg" />
-                        <div>
-                            <h1 class="second-heading-second">Sweet Sleep</h1>
-                            <p class="second-para">60 MIN SLEEP MUSIC</p>
-                        </div>
-                    </div>
+    <!-- ***************************************************************************************************************************** -->
+    <div id="sectionapj">
+        <div class="detailed-page-bg-container">
+            <div class="detailed-page-card-setup">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"
+                        class="img-detailed-page" />
                 </div>
-                <button class="button-second btn" onclick="display('sectionhome')">Back</button>
             </div>
+            <div class="detailed-page-card-setup">
+                <div>
+                    <h1 class="detailed-page-heading">Wings of Fire</h1>
+                    <p class="detailed-page-para">by Arun Tiwari</p>
+                </div>
+            </div>
+            <div>
+                <p class="detailed-page-para-1">Every common man who by his sheer grit and hard work
+                    achieves success should share his story with the rest for
+                    they may find inspiration and strength to go on, in his
+                    story. The 'Wings of Fire' is one such autoblography by
+                    visionary scientist Dr. APJ Abdul Kalam, who from very
+                    humble beginnings rose to be the President of India. The
+                    book is full of insights, personal moments and life
+                    experiences of Dr. Kalam. It gives us an understanding on
+                    his journey of success.</p>
+            </div>
+            <div class="detailed-page-button-setup">
+                <div>
+                    <button class="btn btn-warning button-2" onclick="display('sectionHome')">Back</button>
+                </div>
+                <div>
+                    <button class="btn btn-primary button-3"
+                        onclick="window.location.href='https://www.amazon.in/WINGS-FIRE-AUTOBIOGRAPHY-ABDUL-KALAM/dp/8173711461';">Buy
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- *************************************************************************************************************************************** -->
+    <div id="sectionchetan">
+        <div class="detailed-page-bg-container">
+            <div class="detailed-page-card-setup">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"
+                        class="img-detailed-page" />
+                </div>
+            </div>
+            <div class="detailed-page-card-setup">
+                <div>
+                    <h1 class="detailed-page-heading">The 3 mistake of my life</h1>
+                    <p class="detailed-page-para">by Chetan Bhagat</p>
+                </div>
+            </div>
+            <div>
+                <p class="detailed-page-para-1">
+                    The 3 Mistakes of my life is the third novel written by
+                    eminent Indian Author Chetan Bhagat. Based on cricket,
+                    business and religion, the novel is set against the
+                    backdrop of beautiful city Ahmedabad. Revolving around
+                    three young Indian boys Omi, Ishaan and Govind, the
+                    book goes on to narrate how the three are trying their
+                    best to make ends meet in the city. Based on real events,
+                    the book starts with a dramatic twist, where Bhagat is
+                    reading an e-mail sent by some young person Govind.
+                </p>
+            </div>
+            <div class="detailed-page-button-setup">
+                <div>
+                    <button class="btn btn-warning button-2" onclick="display('sectionHome')">Back</button>
+                </div>
+                <div>
+                    <button class="btn btn-primary button-3"
+                        onclick="window.location.href='https://www.amazon.in/3-Mistakes-My-Life/dp/8129135515';">Buy
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********************************************************************************************************************************************************* -->
+    <div id="sectionharry">
+        <div class="detailed-page-bg-container">
+            <div class="detailed-page-card-setup">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"
+                        class="img-detailed-page" />
+                </div>
+            </div>
+            <div class="detailed-page-card-setup">
+                <div>
+                    <h1 class="detailed-page-heading">harry Potter</h1>
+                    <p class="detailed-page-para">by J.K.Rowling</p>
+                </div>
+            </div>
+            <div>
+                <p class="detailed-page-para-1">
+                    Harry Potter's life is miserable. His parents are dead and
+                    he's stuck with his heartless relatives, who force him to
+                    live in a tiny closet under the stairs. But his fortune
+                    changes when he receives a letter that tells him the truth
+                    about himself: he's a wizard. A mysterious visitor rescues
+                    him from his relatives and takes him to his new home,
+                    Hogwarts School of Witchcraft and Wizardry, After a
+                    lifetime of bottling up his magical powers, Harry finally
+                    feels like a normal kid.
+                </p>
+            </div>
+            <div class="detailed-page-button-setup">
+                <div>
+                    <button class="btn btn-warning button-2" onclick="display('sectionHome')">Back</button>
+                </div>
+                <div>
+                    <button class="btn btn-primary button-3"
+                        onclick="window.location.href='https://www.amazon.in/Harry-Potter-Sorcerers-Stone-Rowling/dp/0590353403';">Buy
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </div>
-    </div>
-    <script type="text/javascript"
-        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+    <!-- <script>
+        function gotoLink(link){
+            console.log(link.value);
+            window.open(link.value);
+        };
+    </script> -->
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+    </script>
 </body>
 
 </html>
