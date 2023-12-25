@@ -6,252 +6,64 @@
     font-family: "Bree Serif";
 }
 
-.home-bg-container{
-    background-color: white;
-    height: 100vh;
-    background-size: cover;
-    padding: 20px;
+.bg-container{
+    background-color: #894bca;
+    /* padding: 20px; */
+    /* border-bottom-left-radius: 5px; */
+}
+
+.top-card-heading{
+    color:#ffffff;
+    font-size: 30px;
+    text-align: left;
 }
 
 .img{
-    width: 450px;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.home-page-heading{
-    color: #183b56;
-    text-align: center;
-
-}
-
-.home-page-para{
-    color: #616e7c;
-    text-align: center;
-    margin-bottom: 35px;
-}
-
-.home-page-card-setup-1{
+.first-card-setup{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.img-1{
-    width: 200px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 50px;
-}
-
-/* ****************************************************************************************************** */
-
-.background-container-1{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.container-1{
-    background-color: white;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding: 15px;
-}
-
-.heading-1{
-    color: #5752ab;
-    font-family: "Bree Serif";
-}
-
-.para-1{
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-.secondary-container-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* margin: 5px; */
-    /* padding: 5px; */
-}
-
-.button1-1{
-    color: #171f46;
-    background-color: #ffffff;
-    border-color: #d7dfe9;
-    /* padding-right: 15px;
-    padding-left: 15px;
-    text-align: center;
-    vertical-align: middle; */
-    margin: 20px;
-    height: 40px;
-    width: 150px;
-}
-
-.button2-1{
-    color: #ffffff;
-    /* background-color: #5752ab; */
-    border-color: #d7dfe9;
-    /* padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-    vertical-align: middle; */
-    margin: 20px;
-    height: 40px;
-    width: 150px;
-}
-
-/* ********************************************************************************************* */
-
-.background-top-section-2{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
-    background-size: cover;
-    height: 30vh;
-}
-
-.top-section-heading-2{
-    color: white;
-    font-family: "Caveat";
-    font-size: 42px;
-    width: 200px;
-    padding: 15px;
-    margin-left: 50px;
-    padding-top: 4pc;   
-}
-
-.background-bottom-container-2{
-    background-color: #e6f6ff;
+.heading-setup{
     padding: 20px;
-    text-align: center;
-    height: 70vh;
-
+    margin-left: 25px;
 }
 
-.card-item-2{
-    background-color: white;
-    width: 150px;
-    border-radius: 10px;
-    text-align: center;
-    padding: 8px;
-    margin: 20px;
+.second-bg-container{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 25px;
 }
 
-.card-image-2{
-    width: 84px;
-    height: 104px;
-}
-
-.card-heading-2{
-    font-size: 15px;
-    font-family: "Roboto";
-    color: #616e7c;
-    padding: 10px;
-}
-
-.card-para-2{
-    color: #323f4b;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.container-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* align-items: center; */
-    
-}
-
-/* **************************************************************************************************** */
-
-.bg-container-3{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.card-3{
-    background-color: #f6c56e;
-    padding: 15px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.heading-3{
-    font-family: "Bree Serif";
-    color: #323f4b;
-    font-size: 45px;
-    padding: 5px;
-}
-
-.para-3{
-    font-family: "Roboto";
-    color: #323f4b;
-    font-size: 25px;
-    padding: 5px;
-}
-
-.button-3{
-    margin-bottom: 15px;
-    width: 150px;
-    height: 50px;
-    margin-right: 20px;
-}
-
-.card-setup-3{
-    display: flex;
-    flex-direction: row;
-}
-
-/* ************************************************************************************************* */
-
-.background-container-4{
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.card-container-4{
-    background-color: #ffffff;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    padding: 35px;
-}
-
-.para-1-4{
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 14px;
-}
-
-.heading-4{
-    color: #323f4b;
-    font-family: "Roboto";
+.second-card-heading{
+    color: #f780c3;
     font-size: 23px;
 }
 
-.para-2-4{
-    color: #7b8794;
-    font-family: "Roboto";
-    font-size: 14px;
+.img-2{
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
-.button-4{
-    background-color: #323f4b;
-    color: #ffffff;
-    /* width: 150px; */
-    margin-bottom: 15px;
-    width: 150px;
-    height: 50px;
-    margin-right: 20px;
+.card-setup-heading{
+    color: #323f4b;
+    font-size: 23px;
+}
+
+.card-setup-para{
+    color: #7b8794;
+}
+
+.card-setup-bottom{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-top: 20px;
 }
