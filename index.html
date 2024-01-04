@@ -4,13 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -21,94 +16,175 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Yoga-Page</title>
+    <title>Flats Page</title>
 </head>
 
 <body>
-    <div id="sectionHome">
+    <div id="sectionhome">
         <div class="home-page-bg-container">
+            <div class="home-page-card">
+                <h1 class="home-page-heading">Sunrise Avenue</h1>
+                <p class="home-page-para">Move to what moves you</p>
+                <button class="btn button" onclick="display('sectionflats')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+    <!-- **************************************************************************************************** -->
+    <div id="sectionflats">
+        <div class="second-page-bg-container">
             <div>
-                <div class="heading-setup">
-                    <h1 class="home-page-heading">Discover the yogi life on <br />the Yoga Experience <br /> Platform
-                    </h1>
+                <h1 class="second-page-heading-1">Sunrise Avenue</h1>
+            </div>
+            <div class="card second-page-card-setup" onclick="display('sectionflat1')">
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="img-1" />
+                </div>
+                <div>
+                    <h1 class="second-page-card-heading">3BHK Flat</h1>
+                    <p class="second-page-card-para-5">This is a fully furnished house with <br /> homemade furniture
+                        including a luxury <br />en-suite
+                        facilities pack. It's built-up area <br />is about 1600sq.ft. A spacious home for <br /> you to
+                        live
+                        in.</p>
                 </div>
             </div>
-            <div class="home-page-photo-setup">
+            <div class="card second-page-card-setup" onclick="display('sectionflat2')">
                 <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png"
-                        class="img-1" />
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="img-1" />
+                </div>
+                <div>
+                    <h1 class="second-page-card-heading">2BHK Flat</h1>
+                    <p class="second-page-card-para-5">A minimalist house made for modern- <br /> day families. It is
+                        fully
+                        furnished with <br />
+                        trending furniture. it's built-up area is <br /> about 1200sq.ft.</p>
                 </div>
             </div>
-            <div class="home-page-bottom-part-setup">
+            <div class="card second-page-card-setup" onclick="display('sectionflat3')">
                 <div>
-                    <p class="home-page-para">Yoga poses strengthen and open tight <br />areas of the body</p>
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="img-1" />
                 </div>
-                <div class="home-page-button-setup">
-                    <button class="btn home-page-button" onclick="display('sectionyoga')">Get Started</button>
+                <div>
+                    <h1 class="second-page-card-heading">4BHK Flat</h1>
+                    <p class="second-page-card-para-5">A contemporary home with more color <br />and vibrancy. It is
+                        fully
+                        furnished with <br />
+                        elegant furniture. It's built-up area is <br />is about 3200sq.ft.</p>
+                </div>
+            </div>
+            <div>
+                <button class="btn button" onclick="display('sectionhome')">
+                    Back
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************************************************************************************************** -->
+
+    <div id="sectionflat1">
+        <div class="flats-detailed-page-bg-container"></div>
+        <div class="flats-detailed-card-section">
+            <h1 class="second-page-heading-1">Rs 3000/-</h1>
+            <div class="flats-detailed-card-view">
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="img-2" />
+                </div>
+                <div>
+                    <p class="second-page-card-para">D/N S-2. Food Street, Indore</p>
+
+                </div>
+            </div>
+            <div class="line">
+                <hr />
+            </div>
+            <div>
+                <h1 class="second-page-heading-1">Description</h1>
+                <p class="second-page-card-para">This is a fully furnished house with handmade <br />furniture including
+                    a luxury en-suite facilities<br />
+                    pack. It's built-up area is about 1600sq.ft. A <br />spacious home for you to live in.</p>
+            </div>
+            <div class="flats-detailed-card-view-1">
+                <div>
+                    <button class="btn button-2">Confirm</button>
+                </div>
+                <div>
+                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ************************************************************************************************************************************* -->
-    <div id="sectionyoga">
-        <div class="second-page-bg-container">
-            <div class="second-page-top-section-setup">
+
+    <!-- **************************************************************************************************************************************************************************** -->
+
+    <div id="sectionflat2">
+        <div class="flats-detailed-page-bg-container-1"></div>
+        <div class="flats-detailed-card-section">
+            <h1 class="second-page-heading-1">Rs 2000/-</h1>
+            <div class="flats-detailed-card-view">
                 <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-without-headphones-img.png"
-                        class="img-1" />
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="img-2" />
                 </div>
+                <div>
+                    <p class="second-page-card-para">D/N 6-2. Food Street, Indore</p>
+
+                </div>
+            </div>
+            <div class="line">
+                <hr />
             </div>
             <div>
-                <p class="second-page-top-section-para">Types of Yoga</p>
+                <h1 class="second-page-heading-1">Description</h1>
+                <p class="second-page-card-para">A minimalist house made for modern-day <br />families.
+                    It is fully furnished with trending<br />
+                    furniture. It's built-up area is about 1200sq.ft.</p>
+            </div>
+            <div class="flats-detailed-card-view-1">
+                <div>
+                    <button class="btn button-2">Confirm</button>
+                </div>
+                <div>
+                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******************************************************************************************************************************************************************************************** -->
+    <!-- ***************************************************************************************************************************************************** -->
+
+    <div id="sectionflat3">
+        <div class="flats-detailed-page-bg-container-2"></div>
+        <div class="flats-detailed-card-section">
+            <h1 class="second-page-heading-2">Rs 4000/-</h1>
+            <div class="flats-detailed-card-view">
+                <div>
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
+                        class="img-2" />
+                </div>
+                <div>
+                    <p class="second-page-card-para">D/N 6-2. Food Street, Indore</p>
+
+                </div>
+            </div>
+            <div class="line">
+                <hr />
             </div>
             <div>
-                <div class="card">
-                    <div>
-                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="img-2" />
-                    </div>
-                    <div>
-                        <h1 class="card-heading">Acro yoga</h1>
-                        <p class="card-para">It stretches and relaxes your <br />body, improves stamina and
-                            <br />memory.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="img-2" />
-                    </div>
-                    <div>
-                        <h1 class="card-heading">Vinyasa Yoga</h1>
-                        <p class="card-para">It serves as a training to increase<br />strength and helps to build
-                            lean<br />muscle mass throughout the <br /> body.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="img-2" />
-                    </div>
-                    <div>
-                        <h1 class="card-heading">Hatha Yoga</h1>
-                        <p class="card-para">It introduces beginers to the <br />main relaxation techniques and
-                            <br />asanas.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="img-2" />
-                    </div>
-                    <div>
-                        <h1 class="card-heading">Kundalini Yoga</h1>
-                        <p class="card-para">It helps relax and restore the <br />mind and the body,
-                            improving<br />strength, flexibility, and endurance.
-                        </p>
-                    </div>
-                </div>
+                <h1 class="second-page-heading-1">Description</h1>
+                <p class="second-page-card-para">A contemporary home with more color and <br />vibrancy.
+                    It is fully furnished with elegant<br />
+                    furniture. It's built-up area is about 3600sq.ft.</p>
             </div>
-            <div class="home-page-button-setup">
-                <button class="btn home-page-button" onclick="display('sectionHome')">Back</button>
+            <div class="flats-detailed-card-view-1">
+                <div>
+                    <button class="btn button-2">Confirm</button>
+                </div>
+                <div>
+                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
+                </div>
             </div>
         </div>
     </div>
