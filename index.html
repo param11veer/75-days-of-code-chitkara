@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -16,174 +21,262 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Flats Page</title>
+    <title>Articles Page</title>
 </head>
 
 <body>
     <div id="sectionhome">
         <div class="home-page-bg-container">
-            <div class="home-page-card">
-                <h1 class="home-page-heading">Sunrise Avenue</h1>
-                <p class="home-page-para">Move to what moves you</p>
-                <button class="btn button" onclick="display('sectionflats')">Book Flat</button>
+            <h1 class="home-pg-heading">Empower Yourself</h1>
+            <p class="home-pg-para">by learning new courses from worlds <br />leading experts </p>
+            <div class="home-pg-card-setup" onclick="display('section1')">
+                <div class="home-pg-card-bg">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png"
+                        class="home-img" />
+                    <p class="card-para">Technology</p>
+                </div>
+                <div class="home-pg-card-bg" onclick="display('section2')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png"
+                        class="home-img" />
+                    <p class="card-para">Science</p>
+                </div>
+            </div>
+            <div class="home-pg-card-setup" onclick="display('section3')">
+                <div class="home-pg-card-bg">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png"
+                        class="home-img" />
+                    <p class="card-para">Health Care</p>
+                </div>
+                <div class="home-pg-card-bg" onclick="display('section4')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png"
+                        class="home-img" />
+                    <p class="card-para">Business</p>
+                </div>
             </div>
         </div>
     </div>
-    <!-- **************************************************************************************************** -->
-    <div id="sectionflats">
-        <div class="second-page-bg-container">
-            <div>
-                <h1 class="second-page-heading-1">Sunrise Avenue</h1>
-            </div>
-            <div class="card second-page-card-setup" onclick="display('sectionflat1')">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="img-1" />
-                </div>
-                <div>
-                    <h1 class="second-page-card-heading">3BHK Flat</h1>
-                    <p class="second-page-card-para-5">This is a fully furnished house with <br /> homemade furniture
-                        including a luxury <br />en-suite
-                        facilities pack. It's built-up area <br />is about 1600sq.ft. A spacious home for <br /> you to
-                        live
-                        in.</p>
-                </div>
-            </div>
-            <div class="card second-page-card-setup" onclick="display('sectionflat2')">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="img-1" />
-                </div>
-                <div>
-                    <h1 class="second-page-card-heading">2BHK Flat</h1>
-                    <p class="second-page-card-para-5">A minimalist house made for modern- <br /> day families. It is
-                        fully
-                        furnished with <br />
-                        trending furniture. it's built-up area is <br /> about 1200sq.ft.</p>
-                </div>
-            </div>
-            <div class="card second-page-card-setup" onclick="display('sectionflat3')">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="img-1" />
-                </div>
-                <div>
-                    <h1 class="second-page-card-heading">4BHK Flat</h1>
-                    <p class="second-page-card-para-5">A contemporary home with more color <br />and vibrancy. It is
-                        fully
-                        furnished with <br />
-                        elegant furniture. It's built-up area is <br />is about 3200sq.ft.</p>
-                </div>
-            </div>
-            <div>
-                <button class="btn button" onclick="display('sectionhome')">
-                    Back
-                </button>
-            </div>
-        </div>
-    </div>
-
     <!-- ********************************************************************************************************************** -->
-
-    <div id="sectionflat1">
-        <div class="flats-detailed-page-bg-container"></div>
-        <div class="flats-detailed-card-section">
-            <h1 class="second-page-heading-1">Rs 3000/-</h1>
-            <div class="flats-detailed-card-view">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
-                        class="img-2" />
+    <div id="section1">
+        <div class="home-page-bg-container">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div>
-                    <p class="second-page-card-para">D/N S-2. Food Street, Indore</p>
-
-                </div>
-            </div>
-            <div class="line">
-                <hr />
             </div>
             <div>
-                <h1 class="second-page-heading-1">Description</h1>
-                <p class="second-page-card-para">This is a fully furnished house with handmade <br />furniture including
-                    a luxury en-suite facilities<br />
-                    pack. It's built-up area is about 1600sq.ft. A <br />spacious home for you to live in.</p>
-            </div>
-            <div class="flats-detailed-card-view-1">
+                <h1 class="second-pg-heading">List of Topics</h1>
                 <div>
-                    <button class="btn button-2">Confirm</button>
+                    <ul class="list">
+                        <li class="list-items">Artificial Intelligence</li>
+                        <li class="list-items">Data Science</li>
+                        <li class="list-items">Machine Learning</li>
+                        <li class="list-items">Internet of Things</li>
+                        <li class="list-items">Blockchain</li>
+                        <li class="list-items">Virtual Reality</li>
+                        <li class="list-items">Robotic Process Automation (RPA)</li>
+                    </ul>
                 </div>
-                <div>
-                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
+                <div class="button-setup">
+                    <button class="btn button" onclick="display('sectionhome')">Back</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- **************************************************************************************************************************************************************************** -->
-
-    <div id="sectionflat2">
-        <div class="flats-detailed-page-bg-container-1"></div>
-        <div class="flats-detailed-card-section">
-            <h1 class="second-page-heading-1">Rs 2000/-</h1>
-            <div class="flats-detailed-card-view">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
-                        class="img-2" />
+    <!-- ******************************************************************************************************************************************* -->
+    <div id="section2">
+        <div class="home-page-bg-container">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c1-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c2-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c3-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div>
-                    <p class="second-page-card-para">D/N 6-2. Food Street, Indore</p>
-
-                </div>
-            </div>
-            <div class="line">
-                <hr />
             </div>
             <div>
-                <h1 class="second-page-heading-1">Description</h1>
-                <p class="second-page-card-para">A minimalist house made for modern-day <br />families.
-                    It is fully furnished with trending<br />
-                    furniture. It's built-up area is about 1200sq.ft.</p>
-            </div>
-            <div class="flats-detailed-card-view-1">
+                <h1 class="second-pg-heading">List of Topics</h1>
                 <div>
-                    <button class="btn button-2">Confirm</button>
+                    <ul class="list">
+                        <li class="list-items">Biology</li>
+                        <li class="list-items">Zoology</li>
+                        <li class="list-items">Cardiology</li>
+                        <li class="list-items">Chemistry</li>
+                        <li class="list-items">Bio Chemistry</li>
+                        <li class="list-items">nano Science</li>
+                        <li class="list-items">Astronomy</li>
+                    </ul>
                 </div>
-                <div>
-                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
+                <div class="button-setup">
+                    <button class="btn button" onclick="display('sectionhome')">Back</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- ******************************************************************************************************************************************************************************************** -->
-    <!-- ***************************************************************************************************************************************************** -->
-
-    <div id="sectionflat3">
-        <div class="flats-detailed-page-bg-container-2"></div>
-        <div class="flats-detailed-card-section">
-            <h1 class="second-page-heading-2">Rs 4000/-</h1>
-            <div class="flats-detailed-card-view">
-                <div>
-                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png"
-                        class="img-2" />
+    <!-- ******************************************************************************************************************************************* -->
+    <div id="section3">
+        <div class="home-page-bg-container">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c1-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c2-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c3-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div>
-                    <p class="second-page-card-para">D/N 6-2. Food Street, Indore</p>
-
-                </div>
-            </div>
-            <div class="line">
-                <hr />
             </div>
             <div>
-                <h1 class="second-page-heading-1">Description</h1>
-                <p class="second-page-card-para">A contemporary home with more color and <br />vibrancy.
-                    It is fully furnished with elegant<br />
-                    furniture. It's built-up area is about 3600sq.ft.</p>
-            </div>
-            <div class="flats-detailed-card-view-1">
+                <h1 class="second-pg-heading">List of Topics</h1>
                 <div>
-                    <button class="btn button-2">Confirm</button>
+                    <ul class="list">
+                        <li class="list-items">Infrastructure Management</li>
+                        <li class="list-items">latest in Health Care</li>
+                        <li class="list-items">Pharmaceuticals</li>
+                        <li class="list-items">COVID-19</li>
+                    </ul>
                 </div>
+                <div class="button-setup">
+                    <button class="btn button" onclick="display('sectionhome')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********************************************************************************************************************** -->
+    <div id="section4">
+        <div class="home-page-bg-container">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c1-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c2-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c3-img.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h1 class="second-pg-heading">List of Topics</h1>
                 <div>
-                    <button class="btn button-2" onclick="display('sectionflats')">Back</button>
+                    <ul class="list">
+                        <li class="list-items">Business Models</li>
+                        <li class="list-items">21st Century business Skills</li>
+                        <li class="list-items">Traditionals Business Approaches</li>
+                        <li class="list-items">How to go from 0 to 1? The startup 101</li>
+                    </ul>
+                </div>
+                <div class="button-setup">
+                    <button class="btn button" onclick="display('sectionhome')">Back</button>
                 </div>
             </div>
         </div>
@@ -191,6 +284,8 @@
 
     <script type="text/javascript"
         src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+
 </body>
 
 </html>

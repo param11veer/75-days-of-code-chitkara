@@ -3,156 +3,82 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "Bree Serif";
+    font-family: "Roboto";
 }
 
 .home-page-bg-container{
-    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-color: #225db0;
+    padding: 35px;
     height: 100vh;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
 }
 
-.home-page-card{
-    background-color: #ffffff;
+.home-pg-heading{
+    color: #ffffff;
+    text-align: left;
+}
+
+.home-pg-para{
+    color: #ffffff;
+    font-size: 22px;
+    text-align: left;
+}
+
+.home-img{
+    width: 50px;
     text-align: center;
-    padding: 30px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
 
-.home-page-heading{
-    margin-top: 20px;
-    font-size: 25px;
-    color: #f19116;
-    /* font-weight: bold; */
-}
-
-.home-page-para{
-    font-size: 16px;
-    color: #7b8794;
+.home-pg-card-bg{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 150px;
+    height: 95px;
+    /* padding: 25px; */
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 
+.card-para{
+    color: #1f2933;
+    /* margin-bottom: 10px; */
+}
+
+.home-pg-card-setup{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 25px; */
+}
+
+/* ************************************************************************************************************** */
+
+.second-pg-heading{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.list{
+    color: #ffffff;
+    margin-left: 25px;
+    /* padding: 20px; */
+    font-size: 22px;
+}
+
+.list-items{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
 .button{
-    background-color: #f19116;
     color: #ffffff;
-    width: 100px;
-    margin-bottom: 40px;
+    background-color: #1f2933;
 }
 
-/* ************************************************************************************************************************************ */
-
-.second-page-bg-container{
-    background-color: #222222;
-    padding: 25px;
-    height: 100vh;
-    background-size: cover;
-}
-
-.img-1{
-    height: 185px;
-    width: 100px;
-    margin-right: 20px;
-}
-
-.second-page-heading-1{
-    /* margin-top: 20px; */
-    font-size: 25px;
-    color: #f19116;
-    /* font-weight: bold; */
-}
-
-.second-page-card-heading{
-    color: #0f0e46;
-    font-size: 24px;
-    text-align: left;
-    font-weight: 700;
-    margin-top: 15px;
-}
-
-.second-page-card-para-5{
-    color: #7b8794;
-    font-size: 16px;
-    text-align: left;
-}
-
-.second-page-card-setup{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-    /* justify-content: space-between; */
-}
-
-/* ************************************************************************************************************************** */
-
-.flats-detailed-page-bg-container{
-    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png");
-    background-size: cover;
-    height: 30vh;
-}
-
-
-.flats-detailed-page-bg-container-1{
-    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png");
-    background-size: cover;
-    height: 30vh;
-}
-
-.flats-detailed-page-bg-container-2{
-    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png");
-    background-size: cover;
-    height: 30vh;
-}
-
-.flats-detailed-card-section{
-    background-color: #222222;
-    height: 100vh;
-    padding: 25px;
-}
-
-.img-2{
-    width: 24px;
-    margin-right: 20px;
-}
-
-.second-page-card-para{
-    color: #FFFFFF;
-    font-size: 16px;
-    text-align: left;
-}
-
-.flats-detailed-card-view{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: row;
-}
-
-.line{
-    color: #ffffff;
-    background-color: #ffffff;
-    /* width: 100px; */
-    height: 2px;
-    margin-bottom: 30px;
-}
-
-.flats-detailed-card-view-1{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* justify-content: space-between; */
-
-
-}
-
-.button-2{
-    background-color: #f19116;
-    color: #ffffff;
-    width: 100px;
-    /* margin-bottom: 40px; */
+.button-setup{
+    text-align: center;
     margin-top: 50px;
-    margin-right: 30px;
 }
