@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 *{
     margin: 0px;
@@ -6,79 +6,32 @@
     font-family: "Roboto";
 }
 
-.home-page-bg-container{
-    background-color: #225db0;
-    padding: 35px;
-    height: 100vh;
-    background-size: cover;
+.main-heading{
+    color: #1f2933;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.home-pg-heading{
-    color: #ffffff;
-    text-align: left;
+.image{
+    width: 87px;
+    height: 90px;
 }
 
-.home-pg-para{
-    color: #ffffff;
-    font-size: 22px;
-    text-align: left;
-}
-
-.home-img{
-    width: 50px;
-    text-align: center;
-}
-
-.home-pg-card-bg{
-    background-color: #ffffff;
-    border-radius: 10px;
-    width: 150px;
-    height: 95px;
-    /* padding: 25px; */
-    text-align: center;
-    padding-top: 10px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+.card-heading{
+    font-size: 24px;
+    color: #1f2933;
 }
 
 .card-para{
-    color: #1f2933;
-    /* margin-bottom: 10px; */
+    color: #7b8794;
 }
 
-.home-pg-card-setup{
-    display: flex;
-    flex-direction: row;
-    /* margin-right: 25px; */
-}
-
-/* ************************************************************************************************************** */
-
-.second-pg-heading{
-    color: #ffffff;
-    font-size: 30px;
-    margin: 10px;
-    margin-top: 20px;
-}
-
-.list{
-    color: #ffffff;
-    margin-left: 25px;
-    /* padding: 20px; */
-    font-size: 22px;
-}
-
-.list-items{
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.button{
-    color: #ffffff;
-    background-color: #1f2933;
-}
-
-.button-setup{
+.feature-card{
     text-align: center;
-    margin-top: 50px;
+}
+
+.in-part{
+    font-weight: bold;
+    font-style: italic;
+    color: #1f2933;
 }
